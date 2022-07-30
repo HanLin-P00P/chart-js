@@ -165,6 +165,8 @@ body {
   .chart-items {
     font-size: x-small;
   }
+  .data-amount {
+    margin-top: -15px;
   .data-day {
     margin-top: 15px;
   }
