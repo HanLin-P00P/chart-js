@@ -88,8 +88,7 @@ body {
 
 .chart-items {
   width: 10%;
-  height: 0px;
-transition: 1s;
+  transition: 1s;
   background-color: #ec755d;
   color: #3a2313;
   font-weight: 600;
