@@ -101,6 +101,7 @@ body {
 .data-amount {
   margin-top: -25px;
   border: 1px solid #3a2313;
+  color: #3a2313 !important;
   border-radius: 5px;
   transition: 0.1s;
   visibility: hidden;
