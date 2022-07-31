@@ -23,9 +23,13 @@ chart_parent.innerHTML = element.join(" ");
 
 const chart_items = document.querySelectorAll(".chart-items");
 chart_items[new Date().getDay()].style.backgroundColor = "#9e341e";
+chart_items[new Date().getDay()].style.color = "#fefefe";
 
 for (let i = 0; i < chart_items.length; i++) {
-  chart_items[i].style.height = `${statArray[i].amount * 2.5}px`;
+ chart_items[i].style.height = "20px";
+  setTimeout(() => {
+    chart_items[i].style.height = `${statArray[i].amount * 2.5}px`;
+  }, 500);
 }
 
 // light mode / dark mode switching
