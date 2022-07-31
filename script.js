@@ -53,6 +53,7 @@ ligh_dark_button.addEventListener("click", () => {
       each.style.backgroundColor = "#ec755d";
     });
     chart_items[new Date().getDay()].style.backgroundColor = "#9e341e";
+    chart_items[new Date().getDay()].style.color = "#cadetblue";
     light_button.style.zIndex = "5";
     dark_button.style.zIndex = "4";
   } else {
@@ -66,6 +67,7 @@ ligh_dark_button.addEventListener("click", () => {
       each.style.backgroundColor = "rgb(48, 127, 173)";
     });
     chart_items[new Date().getDay()].style.backgroundColor = "blue";
+    chart_items[new Date().getDay()].style.color = "#fefefe";
     light_button.style.zIndex = "4";
     dark_button.style.zIndex = "5";
   }
